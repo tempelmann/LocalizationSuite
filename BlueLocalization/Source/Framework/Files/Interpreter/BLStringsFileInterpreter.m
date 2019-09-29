@@ -20,7 +20,8 @@
 }
 
 + (NSUInteger)defaultOptions {
-	return BLFileInterpreterImportComments | BLFileInterpreterEnableShadowComments | BLFileInterpreterReferenceImportCreatesBackup | BLFileInterpreterImportNonReferenceValuesOnly;
+	return BLFileInterpreterImportComments /* | BLFileInterpreterEnableShadowComments */ | BLFileInterpreterReferenceImportCreatesBackup | BLFileInterpreterImportNonReferenceValuesOnly;
+//!TT	return BLFileInterpreterImportComments | BLFileInterpreterEnableShadowComments | BLFileInterpreterReferenceImportCreatesBackup | BLFileInterpreterImportNonReferenceValuesOnly;
 }
 
 #pragma mark -
