@@ -667,7 +667,7 @@
 				ORGANIZATIONNAME = "Localization Suite";
 				TargetAttributes = {
 					8D15AC270486D014006FF6A4 = {
-						DevelopmentTeam = X2L8375ZQ7;
+						DevelopmentTeam = 25856V4B4X;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -1056,7 +1056,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 20;
-				DEVELOPMENT_TEAM = X2L8375ZQ7;
+				DEVELOPMENT_TEAM = 25856V4B4X;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Shared/Frameworks\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREFIX_HEADER = "Source/Other/Localization Manager_Prefix.pch";
@@ -1078,7 +1078,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 20;
-				DEVELOPMENT_TEAM = X2L8375ZQ7;
+				DEVELOPMENT_TEAM = 25856V4B4X;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Shared/Frameworks\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREFIX_HEADER = "Source/Other/Localization Manager_Prefix.pch";
