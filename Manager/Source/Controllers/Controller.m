@@ -37,7 +37,8 @@ id __sharedControllerInstance;
 	#if 0
 		// For faster debugging:
 		[[NSDocumentController sharedDocumentController] newDocument: self];
-		[BLXcodeImporter importXcodeProjectAtPath:@"/Applications/Develop Tools/Localization/Localization Suite github/• Localize Me/Localize Me.xcodeproj" toDatabaseDocument:[[NSDocumentController sharedDocumentController] currentDocument] withOptions:BLXcodeImporterRescanExistingFiles];
+		[BLXcodeImporter importXcodeProjectAtPath:@"/Users/tempi/Desktop/Localize Me/Localize Me.xcodeproj" toDatabaseDocument:[[NSDocumentController sharedDocumentController] currentDocument] withOptions:BLXcodeImporterRescanExistingFiles];
+//		[BLXcodeImporter importXcodeProjectAtPath:@"/Applications/Develop Tools/Localization/Localization Suite github/• Localize Me/Localize Me.xcodeproj" toDatabaseDocument:[[NSDocumentController sharedDocumentController] currentDocument] withOptions:BLXcodeImporterRescanExistingFiles];
 	#endif
 }
 
