@@ -32,7 +32,6 @@ id __sharedControllerInstance;
 
 - (void)awakeFromNib {
 	[LILogWindow logWindow];
-	[[SUUpdater sharedUpdater] setDelegate: self];
 	
 	#if 0
 		// For faster debugging:
@@ -40,19 +39,6 @@ id __sharedControllerInstance;
 		[BLXcodeImporter importXcodeProjectAtPath:@"/Users/tempi/Desktop/Localize Me/Localize Me.xcodeproj" toDatabaseDocument:[[NSDocumentController sharedDocumentController] currentDocument] withOptions:BLXcodeImporterRescanExistingFiles];
 //		[BLXcodeImporter importXcodeProjectAtPath:@"/Applications/Develop Tools/Localization/Localization Suite github/• Localize Me/Localize Me.xcodeproj" toDatabaseDocument:[[NSDocumentController sharedDocumentController] currentDocument] withOptions:BLXcodeImporterRescanExistingFiles];
 	#endif
-}
-
-
-#pragma mark - Updates
-
-- (id <SUVersionComparison>)versionComparatorForUpdater:(SUUpdater *)updater
-{
-	return self;
-}
-
-- (NSComparisonResult)compareVersion:(NSString *)versionA toVersion:(NSString *)versionB
-{
-	return [versionA hexanumericalCompare: versionB];
 }
 
 

@@ -48,6 +48,19 @@ typedef enum {
 
 @end
 
+#if 1	// !TT for compiling in Xcode 10:
+typedef NS_ENUM(NSInteger, NSTableViewStyle) {
+    NSTableViewStyleAutomatic,
+    NSTableViewStyleFullWidth,
+    NSTableViewStyleInset,
+    NSTableViewStyleSourceList,
+    NSTableViewStylePlain
+} API_AVAILABLE(macos(11.0));
+@interface NSTableView(macos11) 
+	@property NSTableViewStyle style API_AVAILABLE(macos(11.0));
+@end
+#endif
+
 // Implementation
 @implementation Document
 

@@ -39,18 +39,19 @@ id sharedControllerInstance;
 
 - (void)awakeFromNib {
 	[LILogWindow logWindow];
-	[[SUUpdater sharedUpdater] setDelegate:self];
+//!TT	[[SUUpdater sharedUpdater] setDelegate:self];
 }
 
+/*!TT
 #pragma mark - Updates
 
 - (id<SUVersionComparison>)versionComparatorForUpdater:(SUUpdater *)updater {
 	return self;
 }
-
 - (NSComparisonResult)compareVersion:(NSString *)versionA toVersion:(NSString *)versionB {
 	return [versionA hexanumericalCompare:versionB];
 }
+*/
 
 #pragma mark - General Actions
 

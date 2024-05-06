@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -1469,7 +1469,14 @@
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Localization Suite";
 				TargetAttributes = {
+					5054D2C61404D04900434EAC = {
+						DevelopmentTeam = X2L8375ZQ7;
+					};
+					507F05B41404E3A00008D824 = {
+						DevelopmentTeam = X2L8375ZQ7;
+					};
 					8DC2EF4F0486A6940098B216 = {
+						DevelopmentTeam = 25856V4B4X;
 						LastSwiftMigration = 1410;
 						ProvisioningStyle = Manual;
 					};
@@ -1528,7 +1535,6 @@
 /* Begin PBXShellScriptBuildPhase section */
 		50293194075BD547009FEC06 /* Update Build Number */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
 			buildActionMask = 8;
 			files = (
 			);
@@ -1809,6 +1815,8 @@
 		501EBC3D0854F27900FBC27B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				DEVELOPMENT_TEAM = 25856V4B4X;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -1857,6 +1865,8 @@
 		5058362B1406F62000762666 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				DEVELOPMENT_TEAM = 25856V4B4X;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;

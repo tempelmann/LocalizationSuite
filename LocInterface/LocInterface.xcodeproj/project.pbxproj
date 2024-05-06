@@ -627,7 +627,7 @@
 						ProvisioningStyle = Manual;
 					};
 					8DC2EF4F0486A6940098B216 = {
-						DevelopmentTeam = X2L8375ZQ7;
+						DevelopmentTeam = 25856V4B4X;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -867,6 +867,8 @@
 		1DEB91AE08733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				DEVELOPMENT_TEAM = 25856V4B4X;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Shared/Frameworks\"";
@@ -895,6 +897,8 @@
 		5058362F1406F93400762666 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				DEVELOPMENT_TEAM = 25856V4B4X;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Shared/Frameworks\"";

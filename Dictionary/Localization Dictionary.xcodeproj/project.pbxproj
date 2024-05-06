@@ -22,8 +22,6 @@
 		504E09AF1300580E006B5F4B /* LocInterface.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 504E09A713005805006B5F4B /* LocInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		50823CB3110B1A0400E59A4A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50823CB1110B1A0400E59A4A /* MainMenu.xib */; };
 		50823CB7110B1A1300E59A4A /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50823CB5110B1A1300E59A4A /* Document.xib */; };
-		50823E23110B21CB00E59A4A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50823E22110B21CB00E59A4A /* Sparkle.framework */; };
-		50823E6F110B21D000E59A4A /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50823E22110B21CB00E59A4A /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		50824217110B3B1B00E59A4A /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 50824216110B3B1B00E59A4A /* dsa_pub.pem */; };
 		508C30F9110B578600EA6CAD /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C30F8110B578600EA6CAD /* GradientView.m */; };
 		50A886140A6E680800647446 /* AboutBox.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 50A886120A6E680800647446 /* AboutBox.rtf */; };
@@ -41,7 +39,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				50823E6F110B21D000E59A4A /* Sparkle.framework in CopyFiles */,
 				504E09AC1300580E006B5F4B /* BlueLocalization.framework in CopyFiles */,
 				504E09AD1300580E006B5F4B /* NibPreview.framework in CopyFiles */,
 				504E09AE1300580E006B5F4B /* LocTools.framework in CopyFiles */,
@@ -91,7 +88,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
-				50823E23110B21CB00E59A4A /* Sparkle.framework in Frameworks */,
 				501195BE11529CDF00E54DF2 /* Quartz.framework in Frameworks */,
 				504E09A813005805006B5F4B /* BlueLocalization.framework in Frameworks */,
 				504E09A913005805006B5F4B /* NibPreview.framework in Frameworks */,
